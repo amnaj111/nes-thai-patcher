@@ -181,7 +181,7 @@
 
 	<script>
 		/* ข้อมูลเกมและแพตช์ทั้งหมด */
-																								const games = {
+																										const games = {
 			contrajapanthai: {
 				title: 'Contra_Japan_Thai (ภาษาไทย)',
 				image: './covers/SysDVR_2026_09_06_05_13_18.png',
@@ -190,6 +190,17 @@
 				description: 'ม็อดแปลภาษาไทยสำหรับ Contra_Japan_Thai',
 				outputName: 'Contra (Japan) (Sample) AMNAJ',
 				inputCrc32: 'f3d8d5a0',
+				enabled: true
+			},
+
+			contrajapanfullthai: {
+				title: 'Contra_Japan_Full_Thai (ภาษาไทย)',
+				image: './covers/SysDVR_2026_09_06_05_13_18.png',
+				patchFile: './Contra_Japan_Full_Thai.ips',
+				patchName: 'Contra_Japan_Full_Thai',
+				description: 'ม็อดแปลภาษาไทยสำหรับ Contra_Japan_Full_Thai',
+				outputName: 'Contra (Japan) (Full) AMNAJ',
+				inputCrc32: '8a96a3c4',
 				enabled: true
 			}
 		};
@@ -361,6 +372,7 @@
 
 			<select id="game-selector">
 				<option value="contrajapanthai">Contra_Japan_Thai (ภาษาไทย)</option>
+				<option value="contrajapanfullthai">Contra_Japan_Full_Thai (ภาษาไทย)</option>
 			</select>
 		</div>
 
